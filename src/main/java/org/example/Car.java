@@ -77,6 +77,10 @@ public class Car {
                 '}';
     }
 
+     static void changeColor(Car car){
+        car.setColor("Red");
+    }
+
 //    @Override
 //    public int compareTo(Car car) {
 //        return this.getSeatingCapacity().compareTo(car.getSeatingCapacity());
