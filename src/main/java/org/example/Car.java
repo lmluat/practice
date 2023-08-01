@@ -8,7 +8,7 @@ import java.util.Comparator;
 
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class Car implements Comparable<Car> {
+public class Car {
     private Long id;
     private String name;
     private String model;
@@ -77,8 +77,8 @@ public class Car implements Comparable<Car> {
                 '}';
     }
 
-    @Override
-    public int compareTo(Car car) {
-        return this.getSeatingCapacity().compareTo(car.getSeatingCapacity());
-    }
+//    @Override
+//    public int compareTo(Car car) {
+//        return this.getSeatingCapacity().compareTo(car.getSeatingCapacity());
+//    }
 }
