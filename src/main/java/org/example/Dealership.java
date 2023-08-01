@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class Dealership {
     private final String name = "LSUPER";
     private String location;
+    private Car car;
     private ArrayList<Car> inventory = new ArrayList<>();
     public void addCar(Car car){
         inventory.add(car);
